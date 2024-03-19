@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Xia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="logo">
+                <span>VX</span>
+            </div>
+            <div class="nav">
+                <div class="nav_menu" id="navMenu">
+                    <ul class="link_list">
+                        <div class="close-menu">
+                            <i class="fa fa-times" onclick="menuClose();"></i>
+                        </div>
+                        <li class="list">
+                            <a href="#" class="link">HOME</a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="link">ABOUT</a>
+                        </li>
+                        <li class="list">
+                            <a href="https://verensiaong.my.canva.site/prototype" class="link">WIREFRAME</a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="link">LOVES</a>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn"><i class="fa fa-download"></i><span>Download CV</span></a>
+                </div>
+                <div class="mode">
+                    <div class="moon-sun" id="toogle-switch">
+                        <i class="fa fa-moon" id="moon"></i>
+                        <i class="fa fa-sun" id="sun"></i>
+                    </div>
+                </div>
+                <div class="nav_menu_btn">
+                    <i class="fa fa-bars" onclick="myMenuFunction();"></i>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="col col-1">
+                <div class="hero_box">
+                    <div class="hello">
+                        <p>Hello I'm a </p>
+                    </div>
+                    <div class="headline">
+                        <span class="multiText"></span>
+                    </div>
+                    <div>
+                        <p>My name is Verensia Ong! i'm a college student majoring in information system.</p>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <a href="#" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin-in icon"></i>
+                        </a>
+                        <a href="https://github.com/VerensiaOng" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/vrnso_" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram icon"></i>
+                        </a>
+                        <a href="https://wa.me/6285765344332" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp icon"></i>
+                        </a>
+                    </div>
+                    <div class="hero_btn">
+                        <button class="btn_1"><a href="#">Download CV</a></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="images">
+            <img src="image/shape.png" alt="" class="shape">
+            <img src="image/verensia.png" alt="" class="veren">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings: ["college student", "girl", "pretty girl" ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 2000,
+        })
+    </script>
+</body>
+</html>
